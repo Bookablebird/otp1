@@ -1,0 +1,40 @@
+DROP Database otp1;
+CREATE DATABASE otp1;
+USE otp1;
+CREATE TABLE products(
+    product_ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    product_Name varchar(30),
+    product_CategoryID integer,
+    product_Row integer,
+	product_Shelf integer
+);
+CREATE TABLE categories(
+    category_ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    category_Name varchar(30)
+);
+CREATE TABLE shelf(
+    shelf_ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    x integer,
+	y integer
+);
+CREATE TABLE users(
+    user_ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    user_Username varchar(30),
+    user_Firstname char(30),
+    user_Lastname char(30),
+    user_Type varchar(80),
+    user_Email varchar(80),
+    user_Password varchar(16)
+);
+
+INSERT into categories (category_name)
+            values ("Electronics");
+
+INSERT into products (product_name, product_CategoryID, product_Row, product_Shelf)
+            values ("ZenBook 13 UX331UA", "2", 1, 1);
+			
+INSERT into users (user_Username, user_Firstname, user_Lastname, user_Type, user_Password )
+            values ("Paavo", "Paavo", "Helin", "Admin", "Salasana1");
+            
+INSERT into users (user_Username, user_Firstname, user_Lastname, user_Type, user_Password )
+            values ("Yooru", "Joonas", "Lehikoinen", "Admin", "salasana");
