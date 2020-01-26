@@ -1,0 +1,31 @@
+VIRTUAALIKONE:
+
+Hostname: joonamle-001
+IP: 10.114.34.62
+Netmask: 255.255.255.0
+Gateway: 10.114.34.1
+DNS: 193.167.197.100
+DNS: 195.148.144.100
+Domain: educloud.metropolia.fi
+
+For a preinstalled virtual machine plese use following to login to your virtual server:
+Login: Administrator in Windows, root in Linux
+Password: N7yuBuj4
+
+Koneeseen p‰‰see k‰siksi vain metropolian verkossa
+https://wiki.metropolia.fi/pages/viewpage.action?pageId=149652071
+
+- - - - - - - - - - -
+
+JENKINS:
+http://10.114.34.62:8080/index
+
+tunnus: otp1
+salasana: otp1
+
+- - - - - - - - - - -
+
+AZURE MariaDB:
+Servername: otp-database.mariadb.database.azure.com
+admin: otp_admin@otp-database
+salasana: Lollero123

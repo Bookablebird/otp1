@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence
+  xmlns="http://java.sun.com/xml/ns/persistence"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+  version="2.0">
+
+	<persistence-unit name="varastp" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		
+		<class>model.Category</class>
+		<class>model.User</class>
+		<class>model.Product</class>
+		
+		<properties>
+			<property name="com.mysql.jdbc.Driver"
+			value="com.mysql.jdbc.Driver" />
+			
+			<property name="javax.persistence.jdbc.url"
+			value="jdbc:mysql://84.251.249.75/varastoDB" />
+			
+			<property name="javax.persistence.jdbc.user"
+			value="logistorage_user" />			
+			
+			<property name="javax.persistence.jdbc.password"
+			value="lollero" />					
+		</properties>
+	
+	
+	</persistence-unit>
+</persistence>

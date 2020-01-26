@@ -1,0 +1,61 @@
+Hyödyllisiä Guide sivustoja:
+
+Esimerkki projekti:
+https://www.youtube.com/watch?v=F4vpJJH2PZU
+
+- - - - - - - - - -
+
+MAVEN repo:
+https://mvnrepository.com/
+
+- - - - - - - - - -
+
+MVC:
+https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm
+
+- - - - - - - - - - 
+
+MariaDB yhdistäminen:
+https://www.youtube.com/watch?v=63hasNUIg3k
+
+https://stackoverflow.com/questions/37909487/how-can-i-connect-to-mariadb-using-java
+
+- - - - - - - - - - 
+
+SQL toiminnot:
+
+Auto increment
+https://www.w3schools.com/sql/sql_autoincrement.asp
+https://dev.mysql.com/doc/refman/8.0/en/example-auto-increment.html
+
+foreign key
+https://www.w3schools.com/sql/sql_foreignkey.asp
+
+multiple querys:
+https://stackoverflow.com/questions/24157194/execute-multiple-sql-statements-in-java
+https://www.tutorialspoint.com/javaexamples/jdbc_executebatch.htm
+
+
+teelista tietokannan itemeistä
+https://www.tutorialspoint.com/how-to-sql-insert-items-from-a-list-or-collection-in-to-table-using-jdbc
+
+
+JPA PERSISTENCE:
+https://www.javaworld.com/article/3379043/what-is-jpa-introduction-to-the-java-persistence-api.html?page=2
+https://www.javaworld.com/article/3373652/java-persistence-with-jpa-and-hibernate-part-1-entities-and-relationships.html
+https://stackoverflow.com/questions/46100813/which-variables-use-in-javafx-hibernate-application/46101118
+https://www.journaldev.com/3477/solved-org-hibernate-annotationexception-no-identifier-specified-for-entity-class
+- - - - - - - - - - 
+
+EXTRAT:
+
+Threadit:
+https://dzone.com/articles/java-thread-tutorial-creating-threads-and-multithr
+https://www.tutorialspoint.com/java/java_multithreading.htm
+
+
+
+HUOM
+***
+Jos yhdistäminen tietokantaan ei onnistuu --- puuttuu todennäköisesti dependency mariaDB
+***

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane minWidth="800.0" minHeight="500.0" prefHeight="500.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RootLayoutController">
+   <center>
+      <BorderPane prefHeight="440.0" prefWidth="840.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="pview" mnemonicParsing="false" onAction="#handleOpenProduct" text="Open Product View" />
+              	<MenuItem fx:id="uview" mnemonicParsing="false" onAction="#handleOpenUser" text="Open User View" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Language">
+          <items>
+          	<MenuItem fx:id="suomi" mnemonicParsing="false" onAction="#suomi" text="Suomi" />
+          	<MenuItem fx:id="english" mnemonicParsing="false" onAction="#english" text="English" />
+          </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
